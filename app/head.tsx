@@ -1,7 +1,7 @@
 export default async function Head() {
   return (
     <>
-      <title>Alexandria.</title>
+      <title>Justin West</title>
     </>
   );
 }
