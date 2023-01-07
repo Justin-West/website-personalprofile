@@ -20,14 +20,14 @@ body {
 }
 
 body {
+  height: 100vh;
   color: white;
-  background: black;
+  background: linear-gradient(to bottom, rgb(34, 14, 0), black);
 }
 
 .navbar {
   opacity: 0;
   translate: 0 -20px;
-  scale: 0.95;
   animation: nav-in 500ms ease forwards;
 }
 
@@ -39,7 +39,7 @@ body {
 .nav-glow::before {
   position: absolute;
   background: radial-gradient(
-    200px circle at var(--mouseX) var(--mouseY),
+    300px circle at var(--mouseX) var(--mouseY),
     #f59e0b,
     transparent 40%
   );
@@ -55,20 +55,27 @@ body {
   transition: opacity 200ms ease, background-color 200ms ease;
 }
 
+.navbar.nav-glow:hover::before {
+  opacity: 0.6;
+}
+
 .nav-glow:hover::before {
-  opacity: 0.75;
+  opacity: 0.3;
 }
 .nav-glow:focus {
-  background-color: #92400e;
+  background-color: hsl(23, 86%, 8%);
   animation: nav-btn-click 300ms ease-out forwards;
+}
+
+.nav-btn {
 }
 
 @keyframes nav-btn-click {
   50% {
-    background-color: hsl(38, 70%, 50%);
+    background-color: hsl(34, 92%, 24%);
   }
   100% {
-    background-color: #92400e;
+    background-color: hsl(23, 86%, 8%);
   }
 }
 
@@ -76,6 +83,5 @@ body {
   100% {
     opacity: 100%;
     translate: 0 0;
-    scale: 1;
   }
 }
