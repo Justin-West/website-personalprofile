@@ -1,13 +1,15 @@
 "use client";
+
 import { Old_Standard_TT } from "@next/font/google";
 import Link from "next/link";
 import useMousePosition from "./mouspos";
+
 const olstdMD = Old_Standard_TT({
   weight: "400",
   subsets: ["latin"],
 });
 
-export default function Navbar({ titlefont }) {
+export default function Navbar({ titlefont }: { titlefont: any }) {
   const mousepos = useMousePosition();
 
   let root = document.documentElement;
@@ -24,11 +26,11 @@ export default function Navbar({ titlefont }) {
   }
 
   return (
-    <nav className="navbar nav-glow grid text-white h-16  mt-4  bg-amber-900 py-[1px] items-stretch ">
-      <div className=" Nav-Content flex  items-stretch px-4 z-[2] backdrop-blur-md backdrop-brightness-[0.1]">
+    <nav className="  navbar nav-glow grid text-white h-16  mt-4  bg-amber-900 py-[1px] items-stretch ">
+      <div className=" Nav-Content flex  items-stretch px-4 z-[2] bg-black">
         <Link
           className={
-            "inline-block text-3xl my-auto mr-auto " + titlefont.className
+            "inline-block text-3xl my-auto mr-auto pt-2 " + titlefont.className
           }
           href="/"
         >

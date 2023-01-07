@@ -1,5 +1,4 @@
 import "./globals.css";
-import Navbar from "./navbar";
 import { Poppins, Old_Standard_TT } from "@next/font/google";
 const poppinsMD = Poppins({
   weight: "300",
@@ -10,6 +9,9 @@ const olstdMD = Old_Standard_TT({
   weight: "400",
   subsets: ["latin"],
 });
+
+import Navbar from "./navbar";
+
 export default function RootLayout({
   children,
 }: {
