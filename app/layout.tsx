@@ -25,7 +25,14 @@ export default function RootLayout({
       </head>
       <body className={poppinsMD.className}>
         <Navbar titlefont={olstdMD} />
-        {children}
+        <div
+          className={
+            "page-full relative z-0 bg-amber-1000 bg-opacity-50 border rounded-lg border-amber-1000 py-10 mt-24 w-2/3 min-h-[60rem] mx-auto backdrop-brightness-[0.95] " +
+            poppinsMD.className
+          }
+        >
+          {children}
+        </div>
       </body>
     </html>
   );

@@ -25,10 +25,10 @@ export default function Navbar({ titlefont }: { titlefont: any }) {
           Justin West
         </Link>
         <div className=" sticky right-0 flex p-1">
-          <Link href="/dash" className=" flex-1 px-1">
+          <Link href="/resume" className=" flex-1 px-1">
             <NavButton name="Resume" />
           </Link>
-          <Link href="/dash" className=" flex-1 px-1">
+          <Link href="/projects" className=" flex-1 px-1">
             <NavButton name="Projects" />
           </Link>
           <Link href="/dash" className=" flex-1 px-1">
