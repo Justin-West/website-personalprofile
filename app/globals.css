@@ -5,6 +5,7 @@
 :root {
   --mouseX: 0;
   --mouseY: 0;
+  --light-txt: hsl(31, 70%, 85%);
 }
 
 * {
@@ -21,19 +22,36 @@ body {
 
 body {
   height: 100vh;
-  color: white;
+  color: var(--light-txt);
   background: linear-gradient(to bottom, rgb(34, 14, 0), black);
 }
 
 .navbar {
+  z-index: 10000;
+  position: fixed;
+  width: 100%;
+  top: 0;
   opacity: 0;
   translate: 0 -20px;
   animation: nav-in 500ms ease forwards;
 }
-
-.nav-glow {
-  position: relative;
-  z-index: 0;
+@media (max-width: 530px) {
+  .page-full {
+    width: auto;
+    margin-inline: 1rem;
+  }
+  .nav-title {
+    color: transparent;
+    white-space: nowrap;
+    width: 4rem;
+  }
+  .nav-title::before {
+    color: var(--light-txt);
+    display: block;
+    content: "J. W.";
+    position: absolute;
+    margin: auto;
+  }
 }
 
 .nav-glow::before {
@@ -62,12 +80,9 @@ body {
 .nav-glow:hover::before {
   opacity: 0.3;
 }
-.nav-glow:focus {
+a:focus > .nav-glow {
   background-color: hsl(23, 86%, 8%);
   animation: nav-btn-click 300ms ease-out forwards;
-}
-
-.nav-btn {
 }
 
 @keyframes nav-btn-click {
@@ -75,7 +90,7 @@ body {
     background-color: hsl(34, 92%, 24%);
   }
   100% {
-    background-color: hsl(23, 86%, 8%);
+    background-color: #261003;
   }
 }
 
@@ -84,4 +99,13 @@ body {
     opacity: 100%;
     translate: 0 0;
   }
+}
+
+.pagefull {
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    rgb(34, 14, 0) 30% 60%,
+    transparent 100%
+  );
 }

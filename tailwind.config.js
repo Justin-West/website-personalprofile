@@ -4,7 +4,18 @@
 module.exports = {
   content: ["./pages/**/*.{js,ts,jsx,tsx}", "./app/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+    },
+    extend: {
+      colors: {
+        amber: {
+          950: "#361705",
+          1000: "#261003",
+          lite: "#ecc193",
+        },
+      },
+    },
   },
   plugins: [],
 };
