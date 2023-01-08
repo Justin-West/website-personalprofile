@@ -16,22 +16,19 @@ export default function Navbar({ titlefont }: { titlefont: any }) {
     <nav className="navbar nav-glow grid  min-h-16  mt-4 border-t border-b border-amber-950 bg-amber-1000 py-[1px]">
       <div className=" flex gap-2 px-4 z-[2] bg-amber-1000">
         <Link
-          className={
-            "nav-title inline-block text-3xl my-auto mr-auto pt-2 " +
-            titlefont.className
-          }
+          className={"nav-title text-3xl my-auto pt-2 " + titlefont.className}
           href="/"
         >
           Justin West
         </Link>
-        <div className=" sticky right-0 flex p-1">
-          <Link href="/resume" className=" flex-1 px-1">
+        <div className="nav-btns m-auto mr-0 p-1 gap-2 gap-y-2 flex flex-row">
+          <Link href="/resume">
             <NavButton name="Resume" />
           </Link>
-          <Link href="/projects" className=" flex-1 px-1">
+          <Link href="/projects">
             <NavButton name="Projects" />
           </Link>
-          <Link href="/dash" className=" flex-1 px-1">
+          <Link href="/dash">
             <NavButton name="About Me" />
           </Link>
         </div>

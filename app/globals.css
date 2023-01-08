@@ -18,6 +18,8 @@ html,
 body {
   max-width: 100vw;
   overflow-x: hidden;
+
+  overscroll-behavior: none;
 }
 
 body {
@@ -39,6 +41,8 @@ body {
   .page-full {
     width: auto;
     margin-inline: 1rem;
+    margin-block-start: 10rem;
+    margin-block-end: 5rem;
   }
   .nav-title {
     color: transparent;
@@ -51,6 +55,9 @@ body {
     content: "J. W.";
     position: absolute;
     margin: auto;
+  }
+  .nav-btns {
+    flex-direction: column;
   }
 }
 
@@ -108,7 +115,4 @@ a:focus > .nav-glow {
     rgb(34, 14, 0) 30% 60%,
     transparent 100%
   );
-}
-
-.gframe {
 }

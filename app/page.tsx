@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import profilePic from "./(assets)/(imgs)/IMG_8026.jpg";
+import profilePic from "./(assets)/(imgs)/profilepic3.png";
 
 export default function HomePage() {
   return (
-    <main className=" w-full p-4 overflow-hidden ">
-      <div className="mx-10 mt-20 flex flex-wrap gap-8 justify-center">
+    <main className="w-full py-4 overflow-hidden">
+      <div className="mx-10 flex flex-wrap gap-20 justify-center">
         <div className="max-h-[300px] my-auto aspect-square rounded-full overflow-hidden">
           <Image src={profilePic} alt="Justin West" placeholder="blur" />
         </div>
