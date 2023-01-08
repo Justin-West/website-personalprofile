@@ -79,6 +79,18 @@ body {
   opacity: 0;
   transition: opacity 200ms ease, background-color 200ms ease;
 }
+.nav-glow2::before {
+  position: absolute;
+  background: radial-gradient(
+    800px circle at var(--mouseX) var(--mouseY),
+    #f59e0b,
+    transparent 50%
+  );
+}
+
+.nav-glow2:hover::before {
+  opacity: 0.3;
+}
 
 .navbar.nav-glow:hover::before {
   opacity: 0.6;
@@ -115,4 +127,8 @@ a:focus > .nav-glow {
     rgb(34, 14, 0) 30% 60%,
     transparent 100%
   );
+}
+
+.project-card {
+  position: relative;
 }
