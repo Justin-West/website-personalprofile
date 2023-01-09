@@ -6,6 +6,8 @@
   --mouseX: 0;
   --mouseY: 0;
   --light-txt: hsl(31, 70%, 85%);
+  --amber-950: rgb(54 23 5);
+  --amber-900: hsl(22, 78%, 20%);
 }
 
 * {
@@ -79,6 +81,15 @@ body {
   opacity: 0;
   transition: opacity 200ms ease, background-color 200ms ease;
 }
+
+.nav-glow2 {
+  background: radial-gradient(
+    800px circle at 0 0,
+    var(--amber-900),
+    var(--amber-950) 40%
+  );
+}
+
 .nav-glow2::before {
   position: absolute;
   background: radial-gradient(
@@ -86,6 +97,11 @@ body {
     #f59e0b,
     transparent 50%
   );
+}
+
+.project-card:hover > span > img,
+.project-card:focus > span > img {
+  --tw-blur: blur(0px);
 }
 
 .nav-glow2:hover::before {

@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import profilePic from "./(assets)/(imgs)/profilepic3.png";
+import profilePic from "../public/profilepic3.png";
 
 export default function HomePage() {
   return (
@@ -34,11 +34,17 @@ export default function HomePage() {
             <p className=" indent-10">
               As a highly skilled and motivated professional with a background
               in both{" "}
-              <Link href="/projects" className=" hover:text-sky-200 font-bold">
+              <Link
+                href="/projects/technology"
+                className=" hover:text-sky-200 font-bold"
+              >
                 Technology
               </Link>{" "}
               and{" "}
-              <Link href="/projects" className=" hover:text-sky-200 font-bold">
+              <Link
+                href="/projects/design"
+                className=" hover:text-sky-200 font-bold"
+              >
                 Graphic Design
               </Link>{" "}
               , I am excited to bring my expertise and passion to new
