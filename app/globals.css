@@ -153,3 +153,11 @@ a:focus > .nav-glow {
 .project-card {
   position: relative;
 }
+
+.github-icon {
+  filter: drop-shadow(3px 5px 5px rgba(0, 0, 0, 0.5));
+}
+
+.github-icon:hover {
+  scale: 1.1;
+}

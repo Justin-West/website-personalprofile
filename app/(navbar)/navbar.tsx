@@ -28,7 +28,7 @@ export default function Navbar({ titlefont }: { titlefont: any }) {
           <Link href="/projects">
             <NavButton name="Projects" />
           </Link>
-          <Link href="/dash">
+          <Link href="/about">
             <NavButton name="About Me" />
           </Link>
         </div>

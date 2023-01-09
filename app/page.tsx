@@ -7,8 +7,13 @@ export default function HomePage() {
   return (
     <main className="w-full py-4 overflow-hidden">
       <div className="mx-10 flex flex-wrap gap-20 justify-center">
-        <div className="max-h-[300px] my-auto aspect-square rounded-full overflow-hidden">
-          <Image src={profilePic} alt="Justin West" placeholder="blur" />
+        <div className="max-h-[300px] my-auto aspect-square border p-2 border-amber-900 rounded-full overflow-hidden">
+          <Image
+            src={profilePic}
+            alt="Justin West"
+            placeholder="blur"
+            className="aspect-square rounded-full"
+          />
         </div>
         <div className="flex-1 p-4 bg-amber-lite bg-opacity-20 text-amber-lite h-min my-auto rounded-md min-w-[200px] max-w-lg">
           <h1 className="mb-4">

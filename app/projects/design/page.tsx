@@ -7,7 +7,7 @@ export default function Design() {
     <>
       <Link
         href="/projects"
-        className=" ml-8 uppercase relative nav-glow inline-block bg-amber-950 font-bold text-center p-1 px-6 rounded-full transition-colors duration-200 my-auto"
+        className=" ml-8 uppercase relative nav-glow inline-block bg-amber-950 font-bold text-center p-1 px-3 rounded-md transition-colors duration-200 my-auto"
       >
         <Image
           className=" w-7 inline-block"
