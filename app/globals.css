@@ -101,7 +101,12 @@ body {
 
 .project-card:hover > span > img,
 .project-card:focus > span > img {
-  --tw-blur: blur(0px);
+  --tw-blur: blur(0);
+  filter: drop-shadow(3px 5px 10px rgba(0, 0, 0, 0.5));
+}
+
+.card-blur > span > img {
+  --tw-blur: blur(2px);
 }
 
 .nav-glow2:hover::before {
