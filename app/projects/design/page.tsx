@@ -19,10 +19,22 @@ export default function Design() {
         <div className="ml-2 inline-block align-middle"> Projects</div>
       </Link>
       <div className=" mt-4 mx-auto grid px-24 grid-cols-2 gap-4">
-        <Link href="" className="row-start-1">
+        <Link
+          href={{
+            pathname: "/projects/design/1",
+          }}
+          id="1"
+          className="row-start-1"
+        >
           <BigGlassBtn name="Map of Torius" icon="/map_torius.jpg" />
         </Link>
-        <Link href="" className="row-start-1">
+        <Link
+          href={{
+            pathname: "/projects/design/showcase",
+            query: { title: "MXP Branding & Marketing", asset: "/card2.jpg" },
+          }}
+          className="row-start-1"
+        >
           <BigGlassBtn name="MXP Branding" icon="/card2.jpg" />
         </Link>
         <Link href="" className="row-start-2">

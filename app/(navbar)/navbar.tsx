@@ -37,7 +37,7 @@ export default function Navbar({ titlefont }: { titlefont: any }) {
   );
 }
 
-function HandleMouseStuff() {
+async function HandleMouseStuff() {
   const mousepos = useMousePosition();
 
   let root = document.documentElement;
