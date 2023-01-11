@@ -161,3 +161,16 @@ a:focus > .nav-glow {
 .github-icon:hover {
   scale: 1.1;
 }
+
+.imgdisp {
+}
+
+.imgdisp:active {
+  top: 0;
+  left: 0;
+  margin: 0;
+  padding: 0;
+  pointer-events: none;
+  scale: 170%;
+  translate: calc(var(--mouseX) * -1 + 83%) calc(var(--mouseY) * -1 + 70%);
+}

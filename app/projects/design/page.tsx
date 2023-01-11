@@ -19,34 +19,22 @@ export default function Design() {
         <div className="ml-2 inline-block align-middle"> Projects</div>
       </Link>
       <div className=" mt-4 mx-auto grid px-24 grid-cols-2 gap-4">
-        <Link
-          href={{
-            pathname: "/projects/design/1",
-          }}
-          id="1"
-          className="row-start-1"
-        >
+        <Link href="/projects/design/0" id="1" className="row-start-1">
           <BigGlassBtn name="Map of Torius" icon="/map_torius.jpg" />
         </Link>
-        <Link
-          href={{
-            pathname: "/projects/design/showcase",
-            query: { title: "MXP Branding & Marketing", asset: "/card2.jpg" },
-          }}
-          className="row-start-1"
-        >
+        <Link href="/projects/design/1" className="row-start-1">
           <BigGlassBtn name="MXP Branding" icon="/card2.jpg" />
         </Link>
-        <Link href="" className="row-start-2">
+        <Link href="/projects/design/2" className="row-start-2">
           <BigGlassBtn name="Map of the Red Isles" icon="/RedIsles.jpg" />
         </Link>
-        <Link href="" className="row-start-2">
+        <Link href="/projects/design/3" className="row-start-2">
           <BigGlassBtn name="Through Sarah's Eyes" icon="/Cover-Final-1.jpg" />
         </Link>
-        <Link href="" className="row-start-3">
+        <Link href="/projects/design/4" className="row-start-3">
           <BigGlassBtn name="Our Town Poster" icon="/OurTown.jpg" />
         </Link>
-        <Link href="" className="row-start-3">
+        <Link href="/projects/design/5" className="row-start-3">
           <BigGlassBtn name="Like The Direction" icon="/LTD_Logo.png" />
         </Link>
       </div>
