@@ -166,11 +166,9 @@ a:focus > .nav-glow {
 }
 
 .imgdisp:active {
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
+  position: static;
   pointer-events: none;
-  scale: 170%;
-  translate: calc(var(--mouseX) * -1 + 83%) calc(var(--mouseY) * -1 + 70%);
+  scale: 150%;
+  translate: calc(var(--mouseX) * -0.5 + 19rem)
+    calc(var(--mouseY) * -0.5 + 21rem);
 }

@@ -8,10 +8,10 @@ export default function Projects() {
     <>
       <div className="grid px-24 grid-cols-2 objects-center gap-10">
         <Link href="/projects/technology" className="card-blur row-start-1">
-          <BigGlassBtn name="Technology" icon="\tech.svg" />
+          <BigGlassBtn name="Technology" icon="\icons\tech.svg" />
         </Link>
         <Link href="/projects/design" className="card-blur row-start-1">
-          <BigGlassBtn name="Design" icon="\design.svg" />
+          <BigGlassBtn name="Design" icon="\icons\design.svg" />
         </Link>
       </div>
     </>

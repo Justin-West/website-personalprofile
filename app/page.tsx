@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import profilePic from "../public/profilepic3.png";
+import profilePic from "../public/personal/profilepic3.png";
 
 export default function HomePage() {
   return (

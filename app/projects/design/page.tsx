@@ -11,7 +11,7 @@ export default function Design() {
       >
         <Image
           className=" w-7 inline-block"
-          src="/back.svg"
+          src="/icons/back.svg"
           alt="back"
           width="100"
           height="100"

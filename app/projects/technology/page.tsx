@@ -11,7 +11,7 @@ export default function Technology() {
       >
         <Image
           className=" w-7 inline-block"
-          src="/back.svg"
+          src="/icons/back.svg"
           alt="back"
           width="100"
           height="100"
@@ -25,9 +25,14 @@ export default function Technology() {
             href="https://github.com/abluewizard/website-personalprofile"
             target="_blank"
           >
-            <Image src="/github.svg" alt="github" width="100" height="100" />
+            <Image
+              src="/icons/github.svg"
+              alt="github"
+              width="100"
+              height="100"
+            />
           </Link>
-          <BigGlassBtn name="This Website" icon="/webdevshot.jpg" />
+          <BigGlassBtn name="This Website" icon="/tech/webdevshot.jpg" />
         </Link>
         <Link href="" className="row-start-1">
           <Link
@@ -35,10 +40,18 @@ export default function Technology() {
             href="https://github.com/abluewizard"
             target="_blank"
           >
-            <Image src="/github.svg" alt="github" width="100" height="100" />
+            <Image
+              src="/icons/github.svg"
+              alt="github"
+              width="100"
+              height="100"
+            />
           </Link>
 
-          <BigGlassBtn name="Solarsystem Simulation" icon="/solarsystem.png" />
+          <BigGlassBtn
+            name="Solarsystem Simulation"
+            icon="/tech/solarsystem.png"
+          />
         </Link>
       </div>
     </>
