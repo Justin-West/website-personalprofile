@@ -43,7 +43,9 @@ async function HandleMouseStuff() {
   let root = document.documentElement;
   root.style.setProperty("--mouseX", mousepos.x + "px");
   root.style.setProperty("--mouseY", mousepos.y + "px");
-  let glows = Array.from(document.getElementsByClassName("nav-glow"));
+  let glows = Array.from(
+    document.getElementsByClassName("nav-glow") as HTMLCollectionOf<HTMLElement>
+  );
   for (const card of glows) {
     const rect = card.getBoundingClientRect(),
       x = mousepos.x - rect.left,
