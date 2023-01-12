@@ -22,7 +22,7 @@ export default function Technology() {
         <Link href="/" target="_blank" className="row-start-1">
           <Link
             className=" github-icon mt-3 ml-3 absolute w-10 aspect-square z-30"
-            href="https://github.com/abluewizard/website-personalprofile"
+            href="https://github.com/justin-west/website-personalprofile"
             target="_blank"
           >
             <Image
@@ -34,10 +34,14 @@ export default function Technology() {
           </Link>
           <BigGlassBtn name="This Website" icon="/tech/webdevshot.jpg" />
         </Link>
-        <Link href="" className="row-start-1">
+        <Link
+          href="https://github.com/justin-west"
+          className="row-start-1"
+          target="_blank"
+        >
           <Link
             className=" github-icon mt-3 ml-3 absolute w-10 aspect-square z-30"
-            href="https://github.com/abluewizard"
+            href="https://github.com/justin-west"
             target="_blank"
           >
             <Image
