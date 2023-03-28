@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import BigGlassBtn from "../bigglassbtn";
+import back from "app/(assets)/(imgs)/icons/back.svg";
 
 import card2 from "app/(assets)/(imgs)/designs/card2.jpg";
 import CoverFinal from "app/(assets)/(imgs)/designs/Cover-Final-1.jpg";
@@ -18,7 +19,7 @@ export default function Design() {
       >
         <Image
           className=" w-7 inline-block"
-          src="/icons/back.svg"
+          src={back}
           alt="back"
           width="100"
           height="100"
@@ -30,7 +31,7 @@ export default function Design() {
           <BigGlassBtn name="Map of Torius">
             <Image
               className="z-20 transition-all blur-none m-auto h-3/4 w-3/4 object-contain stroke-1 stroke-amber-50 fill-none "
-              src={card2}
+              src={map}
               alt="This Website"
               width="400"
               height="400"
@@ -42,7 +43,7 @@ export default function Design() {
           <BigGlassBtn name="MXP Branding">
             <Image
               className="z-20 transition-all blur-none m-auto h-3/4 w-3/4 object-contain stroke-1 stroke-amber-50 fill-none "
-              src={CoverFinal}
+              src={card2}
               alt="This Website"
               width="400"
               height="400"
@@ -54,7 +55,7 @@ export default function Design() {
           <BigGlassBtn name="Map of the Red Isles">
             <Image
               className="z-20 transition-all blur-none m-auto h-3/4 w-3/4 object-contain stroke-1 stroke-amber-50 fill-none "
-              src={card2}
+              src={redisles}
               alt="This Website"
               width="400"
               height="400"
@@ -66,7 +67,7 @@ export default function Design() {
           <BigGlassBtn name="Through Sarah's Eyes">
             <Image
               className="z-20 transition-all blur-none m-auto h-3/4 w-3/4 object-contain stroke-1 stroke-amber-50 fill-none "
-              src={card2}
+              src={CoverFinal}
               alt="This Website"
               width="400"
               height="400"
@@ -78,7 +79,7 @@ export default function Design() {
           <BigGlassBtn name="Our Town Poster">
             <Image
               className="z-20 transition-all blur-none m-auto h-3/4 w-3/4 object-contain stroke-1 stroke-amber-50 fill-none "
-              src={card2}
+              src={ourtown}
               alt="This Website"
               width="400"
               height="400"
@@ -90,7 +91,7 @@ export default function Design() {
           <BigGlassBtn name="Like The Direction">
             <Image
               className="z-20 transition-all blur-none m-auto h-3/4 w-3/4 object-contain stroke-1 stroke-amber-50 fill-none "
-              src={card2}
+              src={LTD}
               alt="This Website"
               width="400"
               height="400"
