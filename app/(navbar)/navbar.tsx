@@ -17,7 +17,7 @@ export default function Navbar({ titlefont }: { titlefont: any }) {
       <div className=" flex gap-2 px-4 z-[2] bg-amber-1000">
         <Link
           className={"nav-title text-3xl my-auto pt-2 " + titlefont.className}
-          href="/"
+          href="https://justin-west.github.io/website-personalprofile/"
         >
           Justin West
         </Link>
