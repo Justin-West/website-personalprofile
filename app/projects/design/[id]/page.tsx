@@ -1,3 +1,4 @@
+"use Client";
 type Design = {
   title: string;
   date: string;
