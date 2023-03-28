@@ -1,6 +1,10 @@
 import Link from "next/link";
 import Image from "next/image";
 import BigGlassBtn from "../bigglassbtn";
+import iconGit from "app/(assets)/(imgs)/icons/github.svg";
+import iconBack from "app/(assets)/(imgs)/icons/back.svg";
+import iconTech1 from "app/(assets)/(imgs)/tech/Solarsystem.png";
+import iconTech2 from "app/(assets)/(imgs)/tech/webdevshot.jpg";
 
 export default function Technology() {
   return (
@@ -11,7 +15,7 @@ export default function Technology() {
       >
         <Image
           className=" w-7 inline-block"
-          src="/icons/back.svg"
+          src={iconBack}
           alt="back"
           width="100"
           height="100"
@@ -25,14 +29,18 @@ export default function Technology() {
             href="https://github.com/justin-west/website-personalprofile"
             target="_blank"
           >
-            <Image
-              src="/icons/github.svg"
-              alt="github"
-              width="100"
-              height="100"
-            />
+            <Image src={iconGit} alt="github" width="100" height="100" />
           </Link>
-          <BigGlassBtn name="This Website" icon="/tech/webdevshot.jpg" />
+          <BigGlassBtn name="This Website">
+            <Image
+              className="z-20 transition-all blur-none m-auto h-3/4 w-3/4 object-contain stroke-1 stroke-amber-50 fill-none "
+              src={iconTech2}
+              alt="This Website"
+              width="400"
+              height="400"
+              loading="lazy"
+            />
+          </BigGlassBtn>
         </Link>
         <Link
           href="https://github.com/justin-west"
@@ -44,18 +52,19 @@ export default function Technology() {
             href="https://github.com/justin-west"
             target="_blank"
           >
-            <Image
-              src="/icons/github.svg"
-              alt="github"
-              width="100"
-              height="100"
-            />
+            <Image src={iconGit} alt="github" width="100" height="100" />
           </Link>
 
-          <BigGlassBtn
-            name="Solarsystem Simulation"
-            icon="/tech/solarsystem.png"
-          />
+          <BigGlassBtn name="Solarsystem Simulation">
+            <Image
+              className="z-20 transition-all blur-none m-auto h-3/4 w-3/4 object-contain stroke-1 stroke-amber-50 fill-none "
+              src={iconTech1}
+              alt="This Website"
+              width="400"
+              height="400"
+              loading="lazy"
+            />
+          </BigGlassBtn>
         </Link>
       </div>
     </>
