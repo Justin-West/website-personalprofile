@@ -1,13 +1,15 @@
 import Image from "next/image";
 import Link from "next/link";
 
+import me from "app/(assets)/(imgs)/personal/IMG_6685.jpg";
+
 export default function About() {
   return (
     <>
       <div className="mx-auto grid gap-10 justify-center items-center">
         <div className="mx-auto border p-2 border-amber-900 rounded-[100%] max-w-sm overflow-hidden">
           <Image
-            src="/personal/IMG_6685.jpg"
+            src={me}
             width="500"
             height="500"
             alt="Justin West"
