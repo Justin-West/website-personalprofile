@@ -35,7 +35,7 @@ export default function Post() {
         <Image
           className="imgdisp object-contain"
           src={image}
-          alt="art"
+          alt="art -"
           width="1500"
           height="1500"
         ></Image>
