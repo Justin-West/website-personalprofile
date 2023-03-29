@@ -10,7 +10,7 @@ import iconTech from "../(assets)/(imgs)/icons/tech.svg";
 export default function Projects() {
   return (
     <>
-      <div className="grid px-24 grid-cols-2 objects-center gap-10">
+      <div className="grid grid-cols-2 objects-center gap-10">
         <Link href="/projects/technology" className="card-blur row-start-1">
           <BigGlassBtn name="Technology">
             <Image

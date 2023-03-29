@@ -26,7 +26,7 @@ export default function Design() {
         />
         <div className="ml-2 inline-block align-middle"> Projects</div>
       </Link>
-      <div className=" mt-4 mx-auto grid px-24 grid-cols-2 gap-4">
+      <div className=" mt-4 mx-auto grid grid-cols-2 gap-4">
         <Link href="/projects/design/0" id="1" className="row-start-1">
           <BigGlassBtn name="Map of Torius">
             <Image

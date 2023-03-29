@@ -6,7 +6,7 @@ import back from "app/(assets)/(imgs)/icons/back.svg";
 
 const data = {
   title: "Our Town Poster",
-  date: "?/?/?",
+  date: "4/10/2013",
   description:
     "Created for the Woodland Christian Theater production of Our Town. It was created using Adobe Photoshop. It is a three act play and each colored third represents each act. The story follows a man through his life much as the poster follows the sun.",
 };

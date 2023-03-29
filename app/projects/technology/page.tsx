@@ -22,7 +22,7 @@ export default function Technology() {
         />
         <div className="ml-2 inline-block align-middle"> Projects</div>
       </Link>
-      <div className=" mt-4 mx-auto grid px-24 grid-cols-2 gap-4">
+      <div className=" mt-4 mx-auto grid grid-cols-2 gap-4">
         <Link href="/" target="_blank" className="row-start-1">
           <Link
             className=" github-icon mt-3 ml-3 absolute w-10 aspect-square z-30"

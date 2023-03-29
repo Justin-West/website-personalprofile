@@ -6,7 +6,7 @@ import back from "app/(assets)/(imgs)/icons/back.svg";
 
 const data = {
   title: "Map of the Red Isles",
-  date: "?/?/?",
+  date: "2/3/2021",
   description:
     "Created for the MXP podcast group based on their origonal world of Torius. It was created using Adobe Photoshop. I was responsible for many of the location names and they were each lettered by hand.",
 };

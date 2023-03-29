@@ -6,7 +6,7 @@ import back from "app/(assets)/(imgs)/icons/back.svg";
 
 const data = {
   title: "Like The Direction Entertainment Branding",
-  date: "?/?/?",
+  date: "5/20/2021",
   description:
     "Created for the Lets Play channel Like The Direction. This was created in Adobe Illustrator. I developed a color scheme and design language that reflects the channel's playful and modern tone.",
 };

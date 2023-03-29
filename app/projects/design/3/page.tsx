@@ -6,7 +6,7 @@ import back from "app/(assets)/(imgs)/icons/back.svg";
 
 const data = {
   title: "Through Sarah's Eyes",
-  date: "?/?/?",
+  date: "11/28/2015",
   description:
     "Created for the book Through Sarah's Eyes by Elizabeth Jones. It was created using Adobe Photoshop. I was given a scan of the beautifully rendered character and tasked with creating a complementary layout that fulfilled Jones' requirements.",
 };

@@ -6,7 +6,7 @@ import back from "app/(assets)/(imgs)/icons/back.svg";
 
 const data = {
   title: "MXP Branding",
-  date: "?/?/?",
+  date: "7/26/2021",
   description:
     "Created for the MXP podcast group as a modernization/reimagining of their original design. It was created using Adobe Illustrator & Photoshop. I took their original logo and created a more consistent and versatile look that even lent itself to a white on black version.",
 };

@@ -6,7 +6,7 @@ import image from "app/(assets)/(imgs)/designs/map_torius.jpg";
 
 const data = {
   title: "Map of Torius",
-  date: "?/?/?",
+  date: "4/6/2021",
   description:
     "Created for the MXP podcast group based on their origonal world of Torius. It was created using Adobe Photoshop. I was responsible for many of the location names and they were each lettered by hand.",
 };
