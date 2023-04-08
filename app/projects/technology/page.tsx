@@ -3,7 +3,7 @@ import Image from "next/image";
 import BigGlassBtn from "../bigglassbtn";
 import iconGit from "app/(assets)/(imgs)/icons/github.svg";
 import iconBack from "app/(assets)/(imgs)/icons/back.svg";
-import iconOcean from "app/(assets)/(imgs)/tech/Ocean.png";
+import iconOcean from "app/(assets)/(imgs)/tech/ocean.png";
 import iconDNDMenu from "app/(assets)/(imgs)/tech/dndmenu.png";
 import iconSolar from "app/(assets)/(imgs)/tech/Solarsystem.png";
 import iconProfileWeb from "app/(assets)/(imgs)/tech/webdevshot.jpg";
