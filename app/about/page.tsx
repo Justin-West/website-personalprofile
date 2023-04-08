@@ -3,10 +3,6 @@ import Link from "next/link";
 
 import me from "app/(assets)/(imgs)/personal/IMG_6685.jpg";
 
-export function CopyEmail() {
-  navigator.clipboard.writeText("justin.alex.west@gmail.com");
-}
-
 export default function About() {
   return (
     <>
