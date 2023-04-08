@@ -10,6 +10,10 @@ const olstdMD = Old_Standard_TT({
   subsets: ["latin"],
 });
 
+export const metadata = {
+  title: "Justin West",
+};
+
 import Navbar from "./(navbar)/navbar";
 
 export default function RootLayout({
