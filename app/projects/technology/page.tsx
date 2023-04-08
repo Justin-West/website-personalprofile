@@ -5,7 +5,6 @@ import iconGit from "app/(assets)/(imgs)/icons/github.svg";
 import iconBack from "app/(assets)/(imgs)/icons/back.svg";
 import iconOcean from "app/(assets)/(imgs)/tech/ocean.png";
 import iconDNDMenu from "app/(assets)/(imgs)/tech/dndmenu.png";
-import iconSolar from "app/(assets)/(imgs)/tech/Solarsystem.png";
 import iconProfileWeb from "app/(assets)/(imgs)/tech/webdevshot.jpg";
 
 export default function Technology() {
@@ -85,30 +84,6 @@ export default function Technology() {
             <Image
               className="z-20 transition-all blur-none m-auto h-3/4 w-3/4 object-contain stroke-1 stroke-amber-50 fill-none "
               src={iconProfileWeb}
-              alt="This Website"
-              width="400"
-              height="400"
-              loading="lazy"
-            />
-          </BigGlassBtn>
-        </Link>
-        <Link
-          href="https://github.com/justin-west"
-          className="row-start-2"
-          target="_blank"
-        >
-          <Link
-            className=" github-icon mt-3 ml-3 absolute w-10 aspect-square z-30"
-            href="https://github.com/justin-west"
-            target="_blank"
-          >
-            <Image src={iconGit} alt="github" width="100" height="100" />
-          </Link>
-
-          <BigGlassBtn name="Solarsystem Simulation">
-            <Image
-              className="z-20 transition-all blur-none m-auto h-3/4 w-3/4 object-contain stroke-1 stroke-amber-50 fill-none "
-              src={iconSolar}
               alt="This Website"
               width="400"
               height="400"

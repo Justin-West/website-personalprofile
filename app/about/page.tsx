@@ -3,6 +3,10 @@ import Link from "next/link";
 
 import me from "app/(assets)/(imgs)/personal/IMG_6685.jpg";
 
+export function CopyEmail() {
+  navigator.clipboard.writeText("justin.alex.west@gmail.com");
+}
+
 export default function About() {
   return (
     <>
@@ -38,7 +42,14 @@ export default function About() {
               my knowledge base.
             </p>
           </div>
+
           <div className="flex w-full pt-4">
+            <a
+              className="hover:text-sky-200 font-bold flex-auto text-center"
+              href="mailto:justin.alex.west@gmail.com"
+            >
+              Email
+            </a>
             <Link
               className="hover:text-sky-200 font-bold flex-auto text-center"
               href="https://www.linkedin.com/in/justin-west-24a840209/"
